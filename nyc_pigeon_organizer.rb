@@ -3,14 +3,14 @@ require 'pp'
 def nyc_pigeon_organizer(data)
 
   newHash = {}
-  data.each do |key,value|
+  data.each do |hashKey,value|
   if value.is_a?(Hash)
     value.each do |k,v|
       v.each do |pigeonName|
         if !newHash.key?(pigeonName)
           newHash[pigeonName] = {}
         end
-        if !newHash[pigeonName].key?(key)
+        if !newHash[pigeonName].key?(hashKey)
           newHash[pigeonName][key] = []
           p pigeonName
           p key

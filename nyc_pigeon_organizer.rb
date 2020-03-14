@@ -11,8 +11,8 @@ def nyc_pigeon_organizer(data)
           newHash[pigeonName] = {}
         end
         if !newHash[pigeonName].key?(key)
-          newHash[pigeonName][key]
-        newHash[pigeonName][key] = k.to_s
+          newHash[pigeonName][key] = []
+        newHash[pigeonName][key]
         end
       end
     end

@@ -2,7 +2,7 @@ require 'pp'
 
 def nyc_pigeon_organizer(data)
 
-  hash.each do |key,value|
+  data.each do |key,value|
   p key
   if value.is_a?(Hash)
     value.each do |k,v|

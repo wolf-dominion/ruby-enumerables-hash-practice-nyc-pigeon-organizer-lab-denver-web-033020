@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
           pigeonList[name] = {}
         end
         
-        if 
+        if !pigeonList[name].key?(key)
           pigeonList[name][key] = []
         pigeonList[name][key] << subkey.to_s
         

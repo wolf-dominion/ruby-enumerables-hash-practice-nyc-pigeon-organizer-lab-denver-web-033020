@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
           newHash[pigeonName] = {}
         else
           newHash[pigeonName][key] = value.to_s
-        
+        end
       end
     end
   end

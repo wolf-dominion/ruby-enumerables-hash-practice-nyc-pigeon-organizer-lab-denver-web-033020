@@ -34,8 +34,8 @@ pigeonHashTwo = attributesArray.each_with_index.to_h
     pigeonHash[n] = pigeonHashTwo.clone
   end
   
-  #puts "pigeonHash is now:"
-  #pp pigeonHash
+  puts "pigeonHash is now:"
+  pp pigeonHash
   
 # add the colors to the bird name's attribute's value
   if data[:color][:purple].include?("Theo")
@@ -51,7 +51,7 @@ pigeonHash.collect do |name, info|
         value1.collect do |value2|
           if value2 == name
             attribute = value2
-            puts attribute
+            # puts attribute
           end
         end
       end

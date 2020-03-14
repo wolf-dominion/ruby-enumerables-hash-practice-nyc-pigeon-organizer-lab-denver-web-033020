@@ -6,8 +6,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key,value|
   if value.is_a?(Hash)
     value.each do |k,v|
-      v.each do pigeonName
-          p pigeonName
+      v.each {  }
       end
     end
   else

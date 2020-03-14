@@ -14,6 +14,8 @@ def nyc_pigeon_organizer(data)
           pigeonList[name] = {}
         end
         
+        # check if the current main attribute(ex. color) is in the pigeonList's bird hash (the hash within a hash)
+        
         if !pigeonList[name].key?(key)
           pigeonList[name][key] = []
         pigeonList[name][key] << subkey.to_s

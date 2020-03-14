@@ -14,8 +14,7 @@ def nyc_pigeon_organizer(data)
   end
 end
 
-
-  
+=begin
   pigeonNamesM = []
   pigeonNamesF = []
   
@@ -71,5 +70,5 @@ pigeonHash.collect do |name, info|
     end
   end
 end
-
+=end
 end

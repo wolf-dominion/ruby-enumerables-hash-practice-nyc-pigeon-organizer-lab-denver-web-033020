@@ -8,9 +8,8 @@ def nyc_pigeon_organizer(data)
   if value.is_a?(Hash)
     value.each do |k,v|
       p k
-      v.each do pigeonName
-        if newHash.key?(pigeonName)
-          newHash[pigeonName] = "hello"
+      v.each do |pigeonName|
+        pp pigeonName
       end
       p v
     end

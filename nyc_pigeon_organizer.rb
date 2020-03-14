@@ -12,6 +12,8 @@ def nyc_pigeon_organizer(data)
         end
         if !newHash[pigeonName].key?(key)
           newHash[pigeonName][key] = []
+          p pigeonName
+          p key
         end
         newHash[pigeonName][key].append(k.to_s)
         end

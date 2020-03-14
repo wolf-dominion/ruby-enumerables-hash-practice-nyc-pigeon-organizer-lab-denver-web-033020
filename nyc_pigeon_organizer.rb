@@ -14,6 +14,8 @@ def nyc_pigeon_organizer(data)
           pigeonList[name] = {}
         end
         
+        pigeonList[name][key] = subkey.to_s
+        
       end
     end
   end

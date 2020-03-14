@@ -9,10 +9,10 @@ def nyc_pigeon_organizer(data)
       v.each do |pigeonName|
         if !newHash.key?(pigeonName)
           newHash[pigeonName] = {}
-        else
-          if !newHash[pigeonName].key?(key)
-            
-          newHash[pigeonName][key] = k.to_s
+        end
+        if !newHash[pigeonName].key?(key)
+          newHash[pigeonName][key]
+        newHash[pigeonName][key] = k.to_s
         end
       end
     end

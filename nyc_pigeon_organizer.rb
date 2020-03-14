@@ -77,4 +77,3 @@ pigeonHash.collect do |name, info|
   end
 end
 =end
-end

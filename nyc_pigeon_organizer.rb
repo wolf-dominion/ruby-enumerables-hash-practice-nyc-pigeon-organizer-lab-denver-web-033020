@@ -28,7 +28,7 @@ end
   pigeonNamesArray = pigeonNamesM + pigeonNamesF
   
   pigeonHash = {}
-  
+
 # gathering just the core attribute titles
 attributesArray = []
 data.each_key do |key| 

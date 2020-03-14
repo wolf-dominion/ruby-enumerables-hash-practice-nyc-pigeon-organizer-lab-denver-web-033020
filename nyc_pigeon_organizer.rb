@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   if value.is_a?(Hash)
     value.each do |k,v|
       v.each do pigeonName
-          newHash[pigeonName] = "hello"
+          p pigeonName
       end
     end
   else

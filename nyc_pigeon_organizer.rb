@@ -10,6 +10,8 @@ def nyc_pigeon_organizer(data)
         if !newHash.key?(pigeonName)
           newHash[pigeonName] = {}
         else
+          if !newHash[pigeonName].key?(key)
+            
           newHash[pigeonName][key] = k.to_s
         end
       end

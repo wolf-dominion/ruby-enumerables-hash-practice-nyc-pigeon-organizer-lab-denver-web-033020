@@ -4,21 +4,16 @@ def nyc_pigeon_organizer(data)
 
   newHash = {}
   data.each do |key,value|
-  p key
   if value.is_a?(Hash)
     value.each do |k,v|
-      p k
       v.each do pigeonName
-        if newHash.key?(pigeonName)
-          newHash[:pigeonName] 
+          newHash[pigeonName] = "hello"
       end
-      p v
     end
   else
-    p value
   end
 end
-
+pp newHash
 =begin
   pigeonNamesM = []
   pigeonNamesF = []

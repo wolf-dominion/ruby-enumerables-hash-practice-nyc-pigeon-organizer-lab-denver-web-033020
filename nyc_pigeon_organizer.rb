@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
         
         # check if the name exists in pigeonList
         if !pigeonList.key?(name)
+          pigeonList[name] = {}
         
       end
     end

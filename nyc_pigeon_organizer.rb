@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
     value.each do |k,v|
       p k
       v.each do pigeonName
-        if newHash.conta
+        if newHash.key?()
       end
       p v
     end

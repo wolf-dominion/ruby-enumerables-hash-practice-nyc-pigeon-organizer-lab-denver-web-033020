@@ -7,12 +7,12 @@ def nyc_pigeon_organizer(data)
   if value.is_a?(Hash)
     value.each do |k,v|
       v.each do |pigeonName|
-        pp pigeonName
+        newHash[pigeonName][key] = value.clone
       end
     end
   end
 end
-
+pp newHash
 =begin
   pigeonNamesM = []
   pigeonNamesF = []

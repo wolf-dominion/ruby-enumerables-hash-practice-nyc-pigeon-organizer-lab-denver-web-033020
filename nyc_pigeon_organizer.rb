@@ -18,8 +18,9 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
+  pp newHash
 end
-pp newHash
+
 =begin
   pigeonNamesM = []
   pigeonNamesF = []

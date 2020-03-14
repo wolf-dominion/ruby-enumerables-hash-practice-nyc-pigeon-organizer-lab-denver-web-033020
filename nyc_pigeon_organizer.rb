@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
       p k
       v.each do pigeonName
         if newHash.key?(pigeonName)
-          newHash[pigeonName] 
+          newHash[:pigeonName] 
       end
       p v
     end

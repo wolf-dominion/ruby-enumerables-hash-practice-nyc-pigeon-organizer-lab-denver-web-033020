@@ -4,17 +4,12 @@ def nyc_pigeon_organizer(data)
 
   newHash = {}
   data.each do |key,value|
-  p key
   if value.is_a?(Hash)
     value.each do |k,v|
-      p k
       v.each do |pigeonName|
         pp pigeonName
       end
-      p v
     end
-  else
-    p value
   end
 end
 

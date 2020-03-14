@@ -2,6 +2,7 @@ require 'pp'
 
 def nyc_pigeon_organizer(data)
 
+  
   pigeonNamesM = []
   pigeonNamesF = []
   

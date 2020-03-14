@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
       array.each do |name|
         
         # check if the name exists in pigeonList
-        if pigeonList.key?(name)
+        if !pigeonList.key?(name)
         
       end
     end
